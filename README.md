@@ -9,7 +9,7 @@ This differs from a method like Flatten To String + String to Byte Array. That m
 
 A list of supported datatypes is below.
 
---Datatypes currently supported
+Datatypes currently supported
 - I8
 - I16
 - I32
