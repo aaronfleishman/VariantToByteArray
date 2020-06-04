@@ -1,6 +1,8 @@
 # VariantToByteArray
 Flexible VI for LabVIEW that will convert most datatypes into a byte array without adding anything extra, such as array size or data type codes.
 
+Developed using LabVIEW 2020 Community Edition.
+
 Detailed Description
 
 This VI will convert a variant to a byte array without adding anything extra other than the data itself. This works well as a general function for converting a variant of simple or hierarchal (cluster) numeric data into a byte array. You only need to convert the data to Variant prior to processing it with this function. Also, this specifically avoids the use of property nodes so that the function can be used on RT targets with no worries of it not working due to property node limitations with front panels on RT targets.
