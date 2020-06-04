@@ -30,9 +30,10 @@ Datatypes currently supported
 - Boolean (converts to single byte)
 - String
 - Path (converts to string, and then to byte array)
-- Array (only works with elements of types above)
+- 1D Array (only works with elements of types above)
 - Cluster (recursive. only works with clusters of types above, or arrays with types above)
 - Cluster of Arrays (supported, recursive)
 
 Not Supported (yet)
 - Array of Clusters
+- Multi-dimensional arrays.
